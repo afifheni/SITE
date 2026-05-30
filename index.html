@@ -1,16 +1,450 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Premier Site</title>
-    <link rel="stylesheet" href="style.css">    
+
+    <title>Iblea Fresh Export</title>
+
+    <meta name="description"
+        content="Fresh Produce Sourcing & Coordination from Sicily">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="images/favicon_v1.jpg">
 </head>
+
 <body>
 
-    <h1>Bienvenue Afif 🚀</h1>
-    <p>Mon premier site fonctionne !</p>
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="logo-container">
+
+            <img src="images/logo_v1.jpg" alt="Iblea Fresh Export Logo" class="logo">
+
+            <div>
+                <h1 class="site-title">IBLEA FRESH EXPORT</h1>
+                <p class="site-subtitle">
+                    Fresh Produce Sourcing & Coordination from Sicily
+                </p>
+            </div>
+
+        </div>
+
+        <nav class="menu">
+
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#why">Why Us</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+	<div class="language-switcher">
+    	 <button class="active-lang" data-lang="en">EN</button>
+	<button data-lang="it">IT</button>
+	<button data-lang="no">NO</button>
+	<button data-lang="de">DE</button>
+	<button data-lang="se">SE</button>
+	<button data-lang="dk">DK</button>
+	</div>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-overlay">
+
+            <p class="hero-location">
+   		 MARINA DI RAGUSA • SICILY
+	    </p>
+
+		<h2 id="hero-title">Fresh Produce from Sicily</h2>
+
+            <p id="hero-text">
+		Connecting Northern European buyers with selected Sicilian fresh produce suppliers.
+	    </p>
+
+            <div class="hero-buttons">
+
+                <a href="#contact" class="btn-primary" id="contact-btn">
+Contact Us
+</a>
+
+                <a href="https://wa.me/393313940970"
+   		  class="btn-secondary"
+   		  target="_blank">
+   		  WhatsApp
+		</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="about">
+
+        <div class="container">
+
+            <div class="about-image">
+
+                <img src="images/about.jpg" alt="About Sicily">
+
+            </div>
+
+            <div class="about-text">
+
+                <h2 id="about-title">About Iblea Fresh Export</h2>
+
+                <p id="about-text-1">
+                   Based in Marina di Ragusa, Sicily,
+                   Iblea Fresh Export develops sourcing connections
+                   between Northern European buyers and selected
+                   Sicilian fresh produce suppliers.
+                </p>
+
+                <p id="about-text-2">
+    With direct field experience in greenhouse operations
+    and packaging activities in the Ragusa area,
+    we understand the importance of quality,
+    reliability and efficient coordination.
+</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUCTS -->
+
+    <section id="products" class="products">
+
+        <div class="container">
+
+            <h2 id="products-title">Selected Products</h2>
+
+	<img src="images/products.jpg"
+     	alt="Products"
+    	 class="products-image-full">
+
+            <div class="products-grid">
+
+                <div class="card" id="product-1">🍅 Cherry Tomatoes</div>
+
+		<div class="card" id="product-2">🍅 Datterino Tomatoes</div>
+
+		<div class="card" id="product-3">🥒 Zucchini</div>
+
+		<div class="card" id="product-4">🍆 Eggplants</div>
+
+		<div class="card" id="product-5">🫑 Peppers</div>
+
+		<div class="card" id="product-6">🍋 Citrus Fruits</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- WHY US -->
+
+    <section id="why" class="why">
+
+        <div class="container">
+
+            <h2 id="why-title">Why Work With Us?</h2>
+
+            <div class="why-grid">
+
+    <div class="card">
+        <h3 id="why-card-1-title">📍 Based in Sicily</h3>
+        <p id="why-card-1-text">
+            Direct presence in the Ragusa agricultural area.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3 id="why-card-2-title">🌿 Field Experience</h3>
+        <p id="why-card-2-text">
+            Practical experience in greenhouse production and packaging operations.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3 id="why-card-3-title">🤝 Personal Approach</h3>
+        <p id="why-card-3-text">
+            Direct communication and dedicated support for every project.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3 id="why-card-4-title">🌍 International Mindset</h3>
+        <p id="why-card-4-text">
+            Multilingual communication and export-oriented coordination.
+        </p>
+    </div>
+
+</div>
+
+        </div>
+
+    </section>
+<!-- TRUST -->
+
+<section class="trust-section">
+
+    <h2 id="trust-title">Why Buyers Trust Iblea Fresh Export</h2>
+
+    <div class="trust-grid">
+
+        <div class="trust-card">
+            <h3 id="trust-1-title">🌿 Based in Sicily</h3>
+            <p id="trust-1-text">
+                Located in Marina di Ragusa, at the heart of one of Sicily's most important agricultural regions.
+            </p>
+        </div>
+
+        <div class="trust-card">
+            <h3 id="trust-2-title">🍅 Field Experience</h3>
+            <p id="trust-2-text">
+                Direct experience in greenhouse operations and agricultural activities.
+            </p>
+        </div>
+
+        <div class="trust-card">
+            <h3 id="trust-3-title">📦 Packaging Knowledge</h3>
+            <p id="trust-3-text">
+                Understanding of packaging requirements and product presentation.
+            </p>
+        </div>
+
+        <div class="trust-card">
+            <h3 id="trust-4-title">🌍 Multilingual Communication</h3>
+            <p id="trust-4-text">
+                Communication in Italian, French, English and Arabic.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- EXPORT MARKETS -->
+
+<section class="markets">
+
+    <div class="container">
+
+        <h2 id="markets-title">Export Markets</h2>
+
+        <p class="markets-intro" id="markets-intro">
+            We support sourcing and coordination projects for Northern European buyers
+            seeking reliable fresh produce suppliers in Sicily.
+        </p>
+
+        <div class="markets-grid">
+
+            <div class="market-card">🇳🇴 Norway</div>
+
+            <div class="market-card">🇩🇪 Germany</div>
+
+            <div class="market-card">🇸🇪 Sweden</div>
+
+            <div class="market-card">🇩🇰 Denmark</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- HOW WE WORK -->
+
+<section class="process">
+
+    <div class="container">
+
+        <h2 id="process-title">How We Work</h2>
+
+        <div class="process-grid">
+
+            <div class="process-card">
+                <span>01</span>
+                <h3 id="process-1-title">Request</h3>
+<p id="process-1-text">
+We discuss your sourcing needs and product requirements.
+</p>
+            </div>
+
+            <div class="process-card">
+                <span>02</span>
+                <h3 id="process-2-title">Supplier Selection</h3>
+<p id="process-2-text">
+We identify suitable growers and suppliers.
+</p>
+            </div>
+
+            <div class="process-card">
+                <span>03</span>
+                <h3 id="process-3-title">Coordination</h3>
+<p id="process-3-text">
+Follow-up with suppliers and packaging partners.
+</p>
+            </div>
+
+            <div class="process-card">
+                <span>04</span>
+                <h3 id="process-4-title">Export Support</h3>
+<p id="process-4-text">
+Assistance during preparation and shipment.
+</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- SERVICES -->
+
+    <section id="services" class="services">
+
+        <div class="container">
+
+            <h2 id="services-title">Our Services</h2>
+
+            <div class="services-grid">
+
+                <div class="card" id="service-1">
+    Product Sourcing
+</div>
+
+<div class="card" id="service-2">
+    Supplier Coordination
+</div>
+
+<div class="card" id="service-3">
+    Packaging Follow-up
+</div>
+
+<div class="card" id="service-4">
+    Quality Support
+</div>
+
+<div class="card" id="service-5">
+    Export Assistance
+</div>
+
+<div class="card" id="service-6">
+    Logistics Coordination
+</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+    <div class="container">
+
+        <h2 id="contact-title">Let's Connect</h2>
+
+        <p class="contact-intro" id="contact-intro">
+    Based in Marina di Ragusa, Sicily. Available for sourcing discussions
+    with importers, distributors and fresh produce buyers.
+</p>
+
+        <div class="contact-buttons">
+
+            <a href="mailto:info@ibleafreshexport.com"
+   class="contact-btn"
+   id="email-btn">
+   Email
+</a>
+
+<a href="https://wa.me/393313940970"
+   target="_blank"
+   class="contact-btn"
+   id="whatsapp-btn">
+   WhatsApp
+</a>
+
+<a href="https://www.linkedin.com"
+   target="_blank"
+   class="contact-btn"
+   id="linkedin-btn">
+   LinkedIn
+</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="legal">
+
+      <div class="container legal-info">
+
+        <p id="legal-1">
+This website is operated by Afif ELHENI, based in Marina di Ragusa, Sicily, Italy.
+</p>
+
+<p id="legal-2">
+Fresh Produce Sourcing & Coordination from Sicily.
+</p>
+
+<p id="legal-3">
+Additional business information and privacy details will be provided upon request.
+</p>
+
+    </div>
+
+</section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+    <h4 id="footer-company">
+IBLEA FRESH EXPORT
+</h4>
+
+<p id="footer-founder">
+Founded by Afif ELHENI
+</p>
+
+<p id="footer-location">
+Marina di Ragusa – Sicily – Italy
+</p>
+
+<p id="footer-tagline">
+Connecting Northern European Buyers with Sicily
+</p>
+<p class="copyright">
+    © 2026 IBLEA FRESH EXPORT | Marina di Ragusa, Sicily, Italy | All Rights Reserved
+</p>
+
+</footer>
 
     <script src="script.js"></script>
+
 </body>
+
 </html>
