@@ -82,7 +82,18 @@ linkedinBtn: "LinkedIn",
 footerFounder: "Founded by Afif ELHENI",
 footerLocation: "Marina di Ragusa – Sicily – Italy",
 footerTagline: "Connecting Northern European Buyers with Sicily",
-footerCompany: "IBLEA FRESH EXPORT"
+footerCompany: "IBLEA FRESH EXPORT",
+footerFounder: "A project by SAMAH ExGlo",
+footerLocation: "Marina di Ragusa – Sicily – Italy",
+footerTagline: "Connecting Northern European Buyers with Sicilian Producers",
+footerOperated: "Operated by SAMAH ExGlo",
+footerRights: "All Rights Reserved",
+footerCompany: "IBLEA FRESH EXPORT",
+footerOperated: "Operated by SAMAH ExGlo",
+footerRights: "All Rights Reserved",
+legal1: "This website is operated by SAMAH ExGlo, based in Marina di Ragusa, Sicily, Italy.",
+legal2: "Fresh Produce Sourcing & Coordination from Sicily.",
+legal3: "Additional business information and privacy details will be provided upon request."
     },
     it: {
         about: "Chi siamo",
@@ -175,7 +186,15 @@ legal2:
 
 legal3:
 "Ulteriori informazioni aziendali e dettagli sulla privacy saranno forniti su richiesta.",
-footerCompany: "IBLEA FRESH EXPORT"
+footerCompany: "IBLEA FRESH EXPORT",
+footerFounder: "Un progetto di SAMAH ExGlo",
+footerLocation: "Marina di Ragusa – Sicilia – Italia",
+footerTagline: "Connessione tra acquirenti del Nord Europa e produttori siciliani",
+footerOperated: "Gestito da SAMAH ExGlo",
+footerRights: "Tutti i diritti riservati",
+footerOperated: "Gestito da SAMAH ExGlo",
+footerRights: "Tutti i diritti riservati",
+legal1: "Questo sito è gestito da SAMAH ExGlo, con sede a Marina di Ragusa, Sicilia, Italia."
     },
 
     no: {
@@ -255,7 +274,16 @@ footerCompany: "IBLEA FRESH EXPORT"
 
     legal1: "Dette nettstedet drives av Afif ELHENI, basert i Marina di Ragusa, Sicilia, Italia.",
     legal2: "Sourcing og koordinering av ferske produkter fra Sicilia.",
-    legal3: "Ytterligere forretningsinformasjon og personverndetaljer gis på forespørsel."
+    legal3: "Ytterligere forretningsinformasjon og personverndetaljer gis på forespørsel.",
+footerFounder: "Et prosjekt av SAMAH ExGlo",
+footerLocation: "Marina di Ragusa – Sicilia – Italia",
+footerTagline: "Forbinder nord-europeiske kjøpere med sicilianske produsenter",
+footerOperated: "Drives av SAMAH ExGlo",
+footerRights: "Alle rettigheter forbeholdt",
+footerOperated: "Drives av SAMAH ExGlo",
+footerRights: "Alle rettigheter forbeholdt",
+legal1: "Dette nettstedet drives av SAMAH ExGlo, basert i Marina di Ragusa, Sicilia, Italia.",
+footerCompany: "IBLEA FRESH EXPORT"
 },
 
     de: {
@@ -335,7 +363,16 @@ footerCompany: "IBLEA FRESH EXPORT"
 
     legal1: "Diese Website wird von Afif ELHENI betrieben, mit Sitz in Marina di Ragusa, Sizilien, Italien.",
     legal2: "Sourcing und Koordination von Frischprodukten aus Sizilien.",
-    legal3: "Weitere Geschäftsinformationen und Datenschutzdetails werden auf Anfrage bereitgestellt."
+    legal3: "Weitere Geschäftsinformationen und Datenschutzdetails werden auf Anfrage bereitgestellt.",
+footerFounder: "Ein Projekt von SAMAH ExGlo",
+footerLocation: "Marina di Ragusa – Sizilien – Italien",
+footerTagline: "Verbindung zwischen nordeuropäischen Käufern und sizilianischen Produzenten",
+footerOperated: "Betrieben von SAMAH ExGlo",
+footerRights: "Alle Rechte vorbehalten",
+footerOperated: "Betrieben von SAMAH ExGlo",
+footerRights: "Alle Rechte vorbehalten",
+legal1: "Diese Website wird von SAMAH ExGlo betrieben, mit Sitz in Marina di Ragusa, Sizilien, Italien.",
+footerCompany: "IBLEA FRESH EXPORT"
 },
 
     se: {
@@ -415,7 +452,16 @@ footerCompany: "IBLEA FRESH EXPORT"
 
     legal1: "Denna webbplats drivs av Afif ELHENI, baserad i Marina di Ragusa, Sicilien, Italien.",
     legal2: "Sourcing och samordning av färska produkter från Sicilien.",
-    legal3: "Ytterligare företagsinformation och integritetsdetaljer tillhandahålls på begäran."
+    legal3: "Ytterligare företagsinformation och integritetsdetaljer tillhandahålls på begäran.",
+footerFounder: "Ett projekt av SAMAH ExGlo",
+footerLocation: "Marina di Ragusa – Sicilien – Italien",
+footerTagline: "Förbinder nordeuropeiska köpare med sicilianska producenter",
+footerOperated: "Drivs av SAMAH ExGlo",
+footerRights: "Alla rättigheter förbehållna",
+footerOperated: "Drivs av SAMAH ExGlo",
+footerRights: "Alla rättigheter förbehållna",
+legal1: "Denna webbplats drivs av SAMAH ExGlo, baserad i Marina di Ragusa, Sicilien, Italien.",
+footerCompany: "IBLEA FRESH EXPORT"
 },
 
     dk: {
@@ -495,7 +541,16 @@ footerCompany: "IBLEA FRESH EXPORT"
 
     legal1: "Dette website drives af Afif ELHENI, baseret i Marina di Ragusa, Sicilien, Italien.",
     legal2: "Sourcing og koordinering af friske produkter fra Sicilien.",
-    legal3: "Yderligere forretningsinformation og privatlivsdetaljer gives efter anmodning."
+    legal3: "Yderligere forretningsinformation og privatlivsdetaljer gives efter anmodning.",
+footerFounder: "Et projekt af SAMAH ExGlo",
+footerLocation: "Marina di Ragusa – Sicilien – Italien",
+footerTagline: "Forbinder nordeuropæiske købere med sicilianske producenter",
+footerOperated: "Drevet af SAMAH ExGlo",
+footerRights: "Alle rettigheder forbeholdes",
+footerOperated: "Drevet af SAMAH ExGlo",
+footerRights: "Alle rettigheder forbeholdes",
+legal1: "Dette website drives af SAMAH ExGlo, baseret i Marina di Ragusa, Sicilien, Italien.",
+footerCompany: "IBLEA FRESH EXPORT"
 }
 };
 
@@ -595,6 +650,10 @@ document.getElementById("legal-1").textContent = t.legal1;
 document.getElementById("legal-2").textContent = t.legal2;
 document.getElementById("legal-3").textContent = t.legal3;
 document.getElementById("footer-company").textContent = t.footerCompany;
+document.getElementById("footer-company").textContent = t.footerCompany;
+document.getElementById("footer-operated").textContent = t.footerOperated;
+document.getElementById("footer-rights").textContent = t.footerRights;
+document.getElementById("legal-1").textContent = t.legal1;
 
         buttons.forEach(btn => btn.classList.remove("active-lang"));
         button.classList.add("active-lang");
