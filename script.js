@@ -608,3 +608,10 @@ const mobileMenu = document.getElementById("mobile-menu");
 hamburger.addEventListener("click", () => {
     mobileMenu.classList.toggle("active");
 });
+const menuLinks = document.querySelectorAll(".mobile-menu a");
+
+menuLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        mobileMenu.classList.remove("active");
+    });
+});
