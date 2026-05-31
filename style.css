@@ -517,9 +517,12 @@ footer p {
     background: var(--cream);
     padding: 24px 20px 28px;
     box-shadow: 0 18px 35px rgba(0,0,0,0.14);
+    z-index: 2000;
 }
 .mobile-menu.active {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    z-index: 2000;
 }
 
 .language-switcher {
